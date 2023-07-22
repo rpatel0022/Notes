@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Command Notes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 8px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            text-align: left;
+        }
+
+        th:nth-child(1) {
+            width: 30%;
+        }
+
+        th:nth-child(2) {
+            width: 70%;
+        }
+
+        tr:hover {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Git Command Notes</h1>
+    <table>
+        <tr>
+            <th>Command</th>
+            <th>Detailed Explanation</th>
+        </tr>
+        <tr>
+            <td><code>cd</code></td>
+            <td>
+                If you type <code>cd</code> and press the Return key—with no directory specified—you’ll go back to your Home folder.
+                (You can also type <code>cd ~</code> to go there.)<br>
+                If you type <code>cd /</code>, you’ll go to the root level of your startup disk.<br>
+                If you type <code>cd ..</code> (that’s two periods), you’ll go to the directory above the one you’re currently in.
+                So if you’re in your home folder and type <code>cd ..</code>, you’ll go to your Mac’s /Users folder.<br>
+                And if you type <code>cd -</code> (hyphen), you’ll go back to the directory you were in before the last time you issued the <code>cd</code> command.
+            </td>
+        </tr>
+        <tr>
+            <td><code>mkdir</code></td>
+            <td>To create a new folder (directory), use the <code>mkdir</code> command followed by the folder name. For example, to create a folder named "NewFolder," use: <code>mkdir NewFolder</code>.</td>
+        </tr>
+        <tr>
+            <td><code>touch</code></td>
+            <td>To create a new file, you can use a text editor or the <code>touch</code> command in the terminal.
+            The <code>touch</code> command is often used to create an empty file. For example, to create a file named "newfile.txt," use: <code>touch newfile.txt</code>.</td>
+        </tr>
+        <tr>
+            <td><code>rm</code></td>
+            <td>To delete or remove a file, use the <code>rm</code> command followed by the file name.
+            Be cautious, as this action is permanent and cannot be easily undone.
+            For example, to remove a file named "file.txt," use: <code>rm file.txt</code>.</td>
+        </tr>
+        <tr>
+            <td><code>rmdir</code></td>
+            <td>To delete or remove an empty folder, use the <code>rmdir</code> command followed by the folder name.
+            For example, to remove an empty folder named "EmptyFolder," use: <code>rmdir EmptyFolder</code>.</td>
+        </tr>
+        <tr>
+            <td><code>rm -r</code></td>
+            <td>To remove a folder and its contents recursively, use the <code>rm -r</code> command followed by the folder name.
+            Be extremely careful when using this command, as it permanently deletes the folder and all its contents.
+            For example, to remove a folder named "MyFolder" and all its contents, use: <code>rm -r MyFolder</code>.</td>
+        </tr>
+        <tr>
+            <td><code>mv</code></td>
+            <td>To move files from one folder to another, use the <code>mv</code> command followed by the source file and the destination folder.
+            For example, to move a file named "file.txt" from the current directory to a folder named "Documents," use: <code>mv file.txt Documents/</code>.</td>
+        </tr>
+        <tr>
+            <td><code>mv</code></td>
+            <td>To rename a file, use the <code>mv</code> command and provide the current filename as the source and the new filename as the destination.
+            For example, to rename "oldfile.txt" to "newfile.txt," use: <code>mv oldfile.txt newfile.txt</code>.</td>
+        </tr>
+    </table>
+</body>
+</html>
